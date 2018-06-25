@@ -1,0 +1,14 @@
+D:\C#  Das\my project\GitHub\Homework-C-06.18\ConsoleApp1\ConsoleApp5\bin\Debug\ConsoleApp5.exe.config
+D:\C#  Das\my project\GitHub\Homework-C-06.18\ConsoleApp1\ConsoleApp5\bin\Debug\ConsoleApp5.exe
+D:\C#  Das\my project\GitHub\Homework-C-06.18\ConsoleApp1\ConsoleApp5\bin\Debug\ConsoleApp5.pdb
+D:\C#  Das\my project\GitHub\Homework-C-06.18\ConsoleApp1\ConsoleApp5\obj\Debug\ConsoleApp5.csproj.CoreCompileInputs.cache
+D:\C#  Das\my project\GitHub\Homework-C-06.18\ConsoleApp1\ConsoleApp5\obj\Debug\ConsoleApp5.exe
+D:\C#  Das\my project\GitHub\Homework-C-06.18\ConsoleApp1\ConsoleApp5\obj\Debug\ConsoleApp5.pdb
+D:\C#  Das\my project\GitHub\Homework-C-06.18\ConsoleApp1\ConsoleApp5\obj\Debug\ConsoleApp5.csprojResolveAssemblyReference.cache
+C:\Users\KIP\Desktop\VALAS\C#\Homework-C-06.18\ConsoleApp1\ConsoleApp5\bin\Debug\ConsoleApp5.exe.config
+C:\Users\KIP\Desktop\VALAS\C#\Homework-C-06.18\ConsoleApp1\ConsoleApp5\bin\Debug\ConsoleApp5.exe
+C:\Users\KIP\Desktop\VALAS\C#\Homework-C-06.18\ConsoleApp1\ConsoleApp5\bin\Debug\ConsoleApp5.pdb
+C:\Users\KIP\Desktop\VALAS\C#\Homework-C-06.18\ConsoleApp1\ConsoleApp5\obj\Debug\ConsoleApp5.csprojResolveAssemblyReference.cache
+C:\Users\KIP\Desktop\VALAS\C#\Homework-C-06.18\ConsoleApp1\ConsoleApp5\obj\Debug\ConsoleApp5.csproj.CoreCompileInputs.cache
+C:\Users\KIP\Desktop\VALAS\C#\Homework-C-06.18\ConsoleApp1\ConsoleApp5\obj\Debug\ConsoleApp5.exe
+C:\Users\KIP\Desktop\VALAS\C#\Homework-C-06.18\ConsoleApp1\ConsoleApp5\obj\Debug\ConsoleApp5.pdb

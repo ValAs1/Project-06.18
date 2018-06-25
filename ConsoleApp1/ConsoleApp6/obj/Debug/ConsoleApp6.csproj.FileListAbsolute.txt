@@ -1,0 +1,7 @@
+D:\C#  Das\my project\GitHub\Homework-C-06.18\ConsoleApp1\ConsoleApp6\bin\Debug\ConsoleApp6.exe.config
+D:\C#  Das\my project\GitHub\Homework-C-06.18\ConsoleApp1\ConsoleApp6\bin\Debug\ConsoleApp6.exe
+D:\C#  Das\my project\GitHub\Homework-C-06.18\ConsoleApp1\ConsoleApp6\bin\Debug\ConsoleApp6.pdb
+D:\C#  Das\my project\GitHub\Homework-C-06.18\ConsoleApp1\ConsoleApp6\obj\Debug\ConsoleApp6.csproj.CoreCompileInputs.cache
+D:\C#  Das\my project\GitHub\Homework-C-06.18\ConsoleApp1\ConsoleApp6\obj\Debug\ConsoleApp6.exe
+D:\C#  Das\my project\GitHub\Homework-C-06.18\ConsoleApp1\ConsoleApp6\obj\Debug\ConsoleApp6.pdb
+D:\C#  Das\my project\GitHub\Homework-C-06.18\ConsoleApp1\ConsoleApp6\obj\Debug\ConsoleApp6.csprojResolveAssemblyReference.cache

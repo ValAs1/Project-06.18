@@ -1,0 +1,2 @@
+D:\C#  Das\my project\GitHub\Homework-C-06.18\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojResolveAssemblyReference.cache
+D:\C#  Das\my project\GitHub\Homework-C-06.18\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
