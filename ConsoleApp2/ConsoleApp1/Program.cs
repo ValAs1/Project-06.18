@@ -10,22 +10,21 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-           
             int[,] array = CreatRandomArray(5, 5);
             PrintMatrix(array);
 
-            //int max = MaxMatrix(array);
-            //Console.WriteLine(max);
+            int max = MaxMatrix(array);
+            Console.WriteLine("The maximum of the array is - " + max);
 
-            //int genMax = GetMaxGeneralDiagonal(array);
-            //Console.WriteLine(genMax);
+            int genMax = GetMaxGeneralDiagonal(array);
+            Console.WriteLine("The maximum in the main diagonal is - " + genMax);
 
             int secMax = GetMaxSecondDiagonal(array);
             Console.WriteLine("The maximum in the secondary diagonal is - " + secMax);
 
+            int lowMax = GetMaxLowerDiagonal(array);
+            Console.WriteLine("The maximum under the main diagonal is - " + lowMax);
 
-            //int lowMax = GetMaxLowerDiagonal(array);
-            //Console.WriteLine(lowMax);
             Console.ReadLine();
         }
 
@@ -72,53 +71,54 @@ namespace ConsoleApp1
         //2. unenq 2 chap zangvac gtnel glxavor ankyunagcic max@
         static int GetMaxGeneralDiagonal(int[,] array)
         {
-            int max = -1;
-            for (int i = 0; i < 5; i++)
+            int genMax = array[0, 0];
+
+            for (int i = 0; i < array.GetLength(0); i++)
             {
-                for (int j = 0; j < 5; j++)
+                for (int j = i; j <i+1; j++)
                 {
-                    if (i == j && array[i, i] > max)
+                    if (array[i, i] > genMax)
                     {
-                        max = array[i, i];
+                        genMax = array[i, i];
                     }
                 }
             }
-            return max;
+
+            return genMax;
         }
 
         //3. unenq 2 chap zangvac gtnel 2rdayin ankyunagcic amenamec@
         static int GetMaxSecondDiagonal(int[,] array)
         {
-            int max = array[0, array.GetLength(1)-1 ];
+            int secMax = array[0, array.GetLength(1)-1 ];
             for (int i =0; i< array.GetLength(0); i++)
             {
                 for (int j = array.GetLength(1)-1-i; j == array.GetLength(1) - i-1; j--)
                 {
-                    if (array[i, j] > max)
+                    if (array[i, j] > secMax)
                     {
-                        max = array[i, j];
+                        secMax = array[i, j];
                     }
                 }
             }
-            return max;
+            return secMax;
         }
 
         // 4. unenq 2chap zangvac gtnel glxavor ankyunagci u dranic nerqev gtnvox elementneric max
         static int GetMaxLowerDiagonal(int[,] array)
         {
-            int max = array[0, 0];
-            for (int i = 0; i < 5; i++)
+            int lowMax = array[0, array.GetLength(1) - 1];
+            for (int i = 0; i < array.GetLength(0); i++)
             {
-                for (int j = 0; j < 5; j++)
+                for (int j = array.GetLength(1) - 1 ; j >= array.GetLength(1) - i - 1; j--)
                 {
-                    if (i >= j && array[i, j] > max)
+                    if (array[i, j] > lowMax)
                     {
-                        max = array[i, j];
+                        lowMax = array[i, j];
                     }
                 }
             }
-            return max;
-
+            return lowMax;
         }
     }
 }
