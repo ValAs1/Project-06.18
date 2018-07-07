@@ -11,14 +11,14 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             List<string> name = new List<string>(new string[] { "Aram", "Ashot", "Narek", "Armen" });
-            PrintList(name);
+            Print(name);
             Console.WriteLine();
             ShuffleElementList(name);
         }
 
-        static void PrintList(List<string> name)
+        static void Print(List<string> name)
         {
-            foreach (var item in name)
+            foreach (string item in name)
             {
                 Console.WriteLine("\t" + item);
             }
@@ -38,7 +38,7 @@ namespace ConsoleApp1
                 name[item] = n;
             }
             Console.WriteLine("ShuffleElementList\n");
-            PrintList(name);
+            Print(name);
         }
     }
 }
