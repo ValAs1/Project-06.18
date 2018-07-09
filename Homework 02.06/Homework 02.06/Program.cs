@@ -18,51 +18,23 @@ namespace Homework_02._06
         {
             List<string> name = new List<string>(new string[] { "Suren", "Ashot", "Narek", "Armen" });
             List<string> surname = new List<string>(new string[] { "Abrahamyan", "Karapetyan", "Simonyan", "Dayan" });
+            Print(surname);
             Print(name);
-          Print(surname);
             Console.WriteLine();
-            ShuffleElementList(name, surname);
+            ShuffleSurnameNameList(name, surname);
             Console.ReadLine();
-
-
         }
 
-        static void Print(List<string> name /*, List<string> surname*/)
+        static void Print(List<string> surname)
         {
-            //foreach (string item in name)
-            //{
-            //    Console.WriteLine("\t" + item );
-            //}
-            Console.WriteLine();
-            for (int i = 0; i < Length; i++)
+            foreach (string item in surname)
             {
-                Console.WriteLine("\t" + i);
+                Console.WriteLine("\t" + item);
             }
             Console.WriteLine();
-            //foreach (string item1 in surname)
-            //{
-            //    Console.WriteLine("\t" + item1);
-            //}
-            //Console.WriteLine();
-
-        }
-        static void Printe( List<string> surname)
-        {
-            //foreach (string item in name)
-            //{
-            //    Console.WriteLine("\t" + item);
-            //}
-            //Console.WriteLine();
-
-            foreach (string item1 in surname)
-            {
-                Console.WriteLine("\t" + item1);
-            }
-            Console.WriteLine();
-
         }
 
-        static void ShuffleElementList(List<string> name, List<string> surname)
+        static void ShuffleSurnameNameList(List<string> name, List<string> surname)
         {
             Random rnd = new Random();
             int item = name.Count;
@@ -74,20 +46,22 @@ namespace Homework_02._06
                 name[x] = name[item];
                 name[item] = n;
             }
-
             while (item1 > 0)
             {
-                int x = rnd.Next(item1--);
-                string n = surname[x];
-                surname[x] = surname[item1];
-                surname[item1] = n;
+                int x1 = rnd.Next(item1--);
+                string n1 = surname[x1];
+                surname[x1] = surname[item1];
+                surname[item1] = n1;
             }
-           
-            //Console.WriteLine("ShuffleElementList\n");
-           Print(name);
-         Print(surname);
+            int item3 = surname.Count;
+            while (item < item3)
+            {
+                item++;
+                surname.Insert(item + item1, name[item1]);
+                item1++;
+            }
+            Console.WriteLine("ShuffleSurnameNameList\n");
+            Print(surname);
         }
-
-
     }
 }
