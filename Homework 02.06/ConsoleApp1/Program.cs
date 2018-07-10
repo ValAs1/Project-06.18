@@ -10,35 +10,71 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            List<string> name = new List<string>(new string[] { "Aram", "Ashot", "Narek", "Armen" });
-            Print(name);
+            List<int> isPrime = CreatRandomArray(10);
+
+            Print(isPrime);
+
             Console.WriteLine();
-            ShuffleElementList(name);
+
+            GetPrime(isPrime);
+
+
         }
 
-        static void Print(List<string> name)
-        {
-            foreach (string item in name)
-            {
-                Console.WriteLine("\t" + item);
-            }
-            Console.WriteLine();
-        }
-
-        static void ShuffleElementList(List<string> name)
+        static List<int> CreatRandomArray(int count)
         {
             Random rnd = new Random();
-            int item = name.Count;
-
-            while (item > 0)
+            List<int> arr1 = new List<int>();
+            int[] array = new int[count];
+            for (int i = 0; i < array.Length; i++)
             {
-                int x = rnd.Next(item--);
-                string n = name[x];
-                name[x] = name[item];
-                name[item] = n;
+                array[i] = rnd.Next(1, 50);
+                arr1.Add(array[i]);
             }
-            Console.WriteLine("ShuffleElementList\n");
-            Print(name);
+            return arr1;
+        }
+
+        static void Print(List<int> isPrime)
+        {
+            foreach (var item in isPrime)
+            {
+                Console.Write(item + ", ");
+            }
+            Console.WriteLine();
+        }
+
+        static bool IsPrime(int item)
+        {
+            if (item == 2)
+            {
+                return true;
+            }
+            if (item < 2 || item % 2 == 0)
+            {
+                return false;
+            }
+            for (int i = 3; i < Math.Sqrt(item); i += 2)
+            {
+                if (item % i == 0)
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        static void GetPrime(List<int> isPrime)
+        {
+
+            foreach (var item in isPrime)
+            {
+                if (IsPrime(item))
+                {
+
+                    Console.WriteLine("\t" + item);
+                }
+            }
+
         }
     }
 }
