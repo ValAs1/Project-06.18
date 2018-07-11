@@ -58,7 +58,7 @@ namespace ConsoleApp5
                     arr[minval] = temp;
                 }
             }
-           // PrintArray(arr);
+            PrintArray(arr);
             return arr;
         }
     }
