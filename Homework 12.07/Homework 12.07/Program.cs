@@ -15,6 +15,7 @@ namespace Homework_12._07
             int[] ages = CreateAges(11);
             int[] ids = CreateIds(11);
             int[] shIds = Shuffle(ids);
+
             int[][] emptyGroup = EmptyGroup(shIds, 3);
             int[][] groupedId = GroupedId(shIds, emptyGroup);
             PrintArray(names, surnames, ages, ids);
@@ -84,6 +85,7 @@ namespace Homework_12._07
             idNew = list1.ToArray();
             return idNew;
         }
+
         static int[] CreateIds(int count)
         {
             int[] ids = new int[count];
