@@ -6,18 +6,16 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Rectangle : Parameters
+    class Line:Parameters
     {
         public void Draw()
         {
+           
             for (int i = 0; i < a; i++)
             {
-                for (int j = 0; j < b; j++)
-                {
-                    Console.Write(symbol);
-                }
-                Console.WriteLine();
+                Console.Write(symbol);
             }
+            Console.WriteLine();
         }
     }
 }

@@ -22,11 +22,24 @@ namespace ConsoleApp1
             Console.WriteLine("Rectrangl \n");
             var rectangle = new Rectangle
             {
-                b=10
+                symbol = '-',
+                a = 5,
+                b =10
             };
 
             rectangle.Draw();
+
+            Console.WriteLine();
+            Console.WriteLine("Line \n");
+
+            var line = new Line
+            {
+                symbol = '-',
+                a = 5
+            };
+            line.Draw();
         }
+
 
     }
 }
