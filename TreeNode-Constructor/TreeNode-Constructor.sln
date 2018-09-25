@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeNode-Constructor", "TreeNode-Constructor\TreeNode-Constructor.csproj", "{2B6B5BFF-0960-4619-8538-4FC8E47465DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B6B5BFF-0960-4619-8538-4FC8E47465DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B6B5BFF-0960-4619-8538-4FC8E47465DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B6B5BFF-0960-4619-8538-4FC8E47465DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B6B5BFF-0960-4619-8538-4FC8E47465DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {712C5E9B-F1F8-47FF-84CC-99B4ADD088AD}
+	EndGlobalSection
+EndGlobal
