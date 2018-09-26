@@ -19,6 +19,7 @@ namespace Calculator
 
         private void button0_Click(object sender, EventArgs e)
         {
+           
             if (textBox1.Text == "0")
                 textBox1.Clear();
             textBox1.Text += (sender as Button).Text;
@@ -61,7 +62,7 @@ namespace Calculator
                         c = a / b;
                         break;
                 }
-            }
+           }
 
             textBox1.Text = c.ToString();
         }
