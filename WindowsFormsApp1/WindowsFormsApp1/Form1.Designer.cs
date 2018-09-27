@@ -1,4 +1,4 @@
-﻿namespace TreeNode_Constructor
+﻿namespace WindowsFormsApp1
 {
     partial class Form1
     {
@@ -37,3 +37,4 @@
         #endregion
     }
 }
+
