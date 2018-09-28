@@ -23,7 +23,7 @@ namespace WindowsForms___txt
 
         private void Form1_Load(object sender, EventArgs e)
         {
-           fileName = @"C:\Users\KIP\Desktop\test.txt";
+           fileName = @"C:\Users\Asatryan\Desktop\test.txt";
             //string path = @"C:\Users\KIP\Desktop";
             //string fileName = $@"{path}\test.txt";
            // var file = new FileInfo(fileName);
